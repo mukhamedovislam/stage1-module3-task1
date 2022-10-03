@@ -7,9 +7,9 @@ public class Generics {
 
     //TODO: Refactor Method-1
     public List<List<String>> boxingMethod(String name) {
-        List firstList = new ArrayList<>();
+        List<String> firstList = new ArrayList<>();
         firstList.add(name);
-        List secondList = new ArrayList<>();
+        List<List<String>> secondList = new ArrayList<>();
         secondList.add(firstList);
         return secondList;
     }
